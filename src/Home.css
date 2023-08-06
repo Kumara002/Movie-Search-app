@@ -1,0 +1,107 @@
+body,html{
+    height:100%;
+}
+.home{
+    display: grid;
+    place-items: center;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    border-radius: 10px;
+    height:250px;
+}
+.txt-home{
+    font-style: inherit;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#popular{
+    background-image: url("https://wallpapers.com/images/hd/marvel-superhero-8z8qnac9a48liakb.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(2px);
+}
+#upcoming{
+    background-image: url("https://www.indiaeinfo.com/wp-content/uploads/2023/06/Upcoming-Big-Budget-Movies-2023.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height:100%; */
+    /* filter:blur(8px); */
+    /* -webkit-filter: blur(2px); */
+}
+#top-rated{
+    background-image: url("https://www.indiaeinfo.com/wp-content/uploads/2023/03/Top-10-Highest-Grossing-Indian-Movies-1024x535.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height:100%; */
+}
+#txt-upcoming{
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    place-items: center;
+    position: relative;
+    top:-320px;
+    border-radius: 5px;
+}
+#upcoming-link{
+    height:60px;
+    width:100px;
+    border-radius: 5px;
+    position: absolute;
+    color:black;
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    top:870px;
+    left:46%;
+}
+#txt-popular{
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    place-items: center;
+    position: relative;
+    top:-770px;
+    border-radius: 5px;
+}
+#popular-link{
+    height:60px;
+    width:100px;
+    border-radius: 5px;
+    position: absolute;
+    color:black;
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    bottom:160px;
+    left:46%;
+}
+#txt-top-rated{
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    place-items: center;
+    position: relative;
+    bottom:1200%;
+    border-radius: 5px;   
+}
+#top-rated-link{
+    height:60px;
+    width:100px;
+    border-radius: 5px;
+    position: absolute;
+    color:black;
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    bottom:540px;
+    left:46%;
+}

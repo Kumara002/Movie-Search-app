@@ -1,0 +1,16 @@
+.top-rated-list{
+    border:2px solid black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin:5px;
+    padding: 5px;
+}
+#top-rated-title{
+    color:black;
+}
+#top-rated-rel-date{
+    color:black;
+}
+#top-rated-vote-avg{
+    color:black;
+}

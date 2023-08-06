@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import Home from "./Home"
+import Upcoming from "./Upcoming";
+import TopRated from "./TopRated";
+import Popular from "./Popular";
+import Searched from "./Searched";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+
+  
+  return(
+    <BrowserRouter>
+    <Routes>
+      <Route exact path="/" Component={Home}></Route>
+      <Route exact path="/upcoming" Component={Upcoming}></Route>
+      <Route exact path="/toprated" Component={TopRated}></Route>
+      <Route exact path="/popular" Component={Popular}></Route>
+      <Route exact path="/searched" Component={Searched}></Route>
+    </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;

@@ -1,0 +1,33 @@
+#upcoming-header{
+    display: grid;
+    place-items: center;
+    background-color:black;
+    color: whitesmoke;
+}
+#upcoming-footer{
+    display: grid;
+    place-items: center;
+    background-color: black;
+    color: whitesmoke;
+}
+.movie-list{
+    border:2px solid black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin:5px;
+    padding: 5px;
+}
+#orginal-title{
+    color:black;
+}
+#overview{
+    color:black;
+}
+#release-date{
+    color:black;
+}
+#back-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
